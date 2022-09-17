@@ -1,0 +1,296 @@
+﻿body {
+          font-family:'Open Sans', sans-serif;
+    font-size:14px;
+}
+
+
+.text-center {
+    text-align:center;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', sans-serif;
+}
+.alg-right-pad {
+    float:right;
+    padding-right:20px;
+}
+a:hover {
+    text-decoration:none;
+}
+
+/*=======================================
+  NAVBAR ADJUSTMENTS  
+  blue #428bca
+==================================================*/
+.navbar-brand {
+font-size: 25px;
+padding: 15px 80px 15px 60px;
+}
+.navbar-default .navbar-brand {
+color: #000000;
+}
+.navbar-default {
+background-color: #000000;
+border-color: #000000;
+}
+.navbar {
+ border-radius: 0px; 
+}
+.navbar-default .navbar-nav > li > a {
+color: #FFF;
+}
+.navbar-default .navbar-nav > li > a:hover {
+color: #FFF;
+}
+
+.navbar-default .navbar-brand {
+color: #FFFFFF;
+}
+.navbar-default .navbar-brand:hover {
+color: #FFFFFF;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+color: #050505;
+background-color: #FFFFFF;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+color: #000;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+color: #000;
+}
+/*=======================================
+  BOOTSTRAP ADJUSTMENTS
+==================================================*/
+.row {
+    margin-bottom:10px;
+}
+.btn {
+    margin-bottom:5px;
+}
+/*=======================================
+  INDEX PAGE
+==================================================*/
+
+.box-border {
+    border:1px solid #e1e1e1;
+}
+
+.product-box h3>a,.product-box h3>a:hover,.product-box h3>a:focus {
+    color:#000;
+    text-decoration:none;
+}
+
+.offer-box {
+background-color: #6A75F0;
+border: 1px solid #096FC0;
+color: #fff;
+font-weight: 900;
+font-size:16px;
+}
+    .offer-box a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .offer-box a:hover {
+        color:#000;
+    }
+.list-group a {
+   
+    font-size:14px;
+    font-weight:900;
+    color:#808080;
+}
+.list-group a:hover {
+     color:#000;
+    text-decoration:none;
+}
+.offer-colors {
+   background-color: #B05FDD;
+border: 1px solid #A228F3;
+}
+
+.download-app-box {
+    background-color: #069E98;
+border: 1px solid #0FAA8B;
+padding:30px;
+line-height:40px;
+font-size:25px;
+font-weight:900;
+color:#fff;
+}
+/*=======================================
+  SLIDER main-style.css Changes
+==================================================*/
+.mi-slider {
+margin-top: 0px;
+}
+
+.offer-text
+{
+position: absolute;
+color: #FFF;
+padding: 14px 16px 12px 16px;
+margin-top: 10px;
+background-color:#18b424;
+
+}
+.offer-text2
+{
+position: absolute;
+color: #FFF;
+padding: 14px 16px 12px 16px;
+margin-top: 10px;
+background-color:#EB0429;
+
+}
+/*=======================================
+  FOOTER SECTION
+==================================================*/
+.footer-box {
+    background-color:#F5F5F5;
+    padding:20px 50px 20px 50px;
+    
+    
+}
+.small-box {
+    font-size:10px;
+}
+
+.footer-box a {
+    color:#808080;
+    text-decoration:none;
+}
+.footer-box a:hover {
+    color:#000;
+}
+.pad-botom {
+    padding-bottom:30px;
+}
+.footer-box p {
+    padding-top:15px;
+    padding-bottom:15px;
+    line-height:25px;
+}
+.social-box a{
+     color:#333436;
+    text-decoration:none;
+}
+
+.end-box {
+    padding:20px;
+     color:#fff;
+     background-color:#000;
+     font-size:14px;
+}
+
+
+.item-photo{display:flex;justify-content:center;align-items:center;border-right:1px solid #f6f6f6;}
+.menu-items{list-style-type:none;font-size:11px;display:inline-flex;margin-bottom:0;margin-top:20px}
+.section{width:100%;margin-left:-15px;padding:2px;padding-left:15px;padding-right:15px;background:#f8f9f9}
+.title-price{margin-top:30px;margin-bottom:0;color:black}
+.title-attr{margin-top:0;margin-bottom:0;color:black;}
+.btn-minus{cursor:pointer;font-size:7px;display:flex;align-items:center;padding:5px;padding-left:10px;padding-right:10px;border:1px solid gray;border-radius:2px;border-right:0;}
+.btn-plus{cursor:pointer;font-size:7px;display:flex;align-items:center;padding:5px;padding-left:10px;padding-right:10px;border:1px solid gray;border-radius:2px;border-left:0;}
+div.section > div {width:100%;display:inline-flex;}
+div.section > div > input {margin:0;padding-left:5px;font-size:10px;padding-right:5px;max-width:18%;text-align:center;}
+.attr,.attr2{cursor:pointer;margin-right:5px;height:20px;font-size:10px;padding:2px;border:1px solid gray;border-radius:2px;}
+.attr.active,.attr2.active{ border:1px solid orange;}
+
+@media (max-width: 426px) {
+    .container {margin-top:0px !important;}
+    .container > .row{padding:0 !important;}
+    .container > .row > .col-xs-12.col-sm-5{
+        padding-right:0 ;    
+    }
+    .container > .row > .col-xs-12.col-sm-9 > div > p{
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+    .container > .row > .col-xs-12.col-sm-9 > div > ul{
+        padding-left:10px !important;
+        
+    }            
+    .section{width:104%;}
+    .menu-items{padding-left:0;}
+}
+
+
+.ctr {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Hide the browser's default checkbox */
+.ctr input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.ctr:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.ctr input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.ctr input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.ctr .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+input[type=number]
+{
+    width: 50px !important;
+}
+.listord
+{
+    border: 1px solid #000000;
+    padding: 5px;
+}
