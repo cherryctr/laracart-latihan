@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Order;
 use Illuminate\Http\Request;
-use  Gloudemans\Shoppingcart\Facades\Cart;
-
+use Gloudemans\Shoppingcart\Facades\Cart;
 use App\OrderDetail;
+use App\Province;
 use Illuminate\Support\Facades\Auth;
 
 class CheckoutController extends Controller
@@ -24,7 +24,10 @@ class CheckoutController extends Controller
     public function index()
     {
         //
-        return view('shop.checkout');
+        $data = [];
+        $data["provinces"] = Province::orderby("name","asc")
+        ->select('id','name')->get();
+        return view('shop.checkout',$data);
     }
 
     /**

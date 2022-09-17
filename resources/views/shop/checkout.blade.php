@@ -40,7 +40,12 @@ Satu Langkah Lagi
 									</div>
 									<div class="form-goup">
 										<label>Provinsi</label>
-										<input type="text" placeholder="Provinsi" class="form-control" name="ordprovinsi" required="">
+										<select name="province" id="province" class="form-control">
+											<option value="">== Select Province ==</option>
+											@foreach ($provinces as $item)
+												<option value="{{ $item->id }}">{{ $item->name }}</option>
+											@endforeach
+										</select>
 									</div>	
 									<div class="form-goup">
 										<label>Metode Pembayaran</label>
